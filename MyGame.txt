@@ -1,0 +1,101 @@
+state::3rd floor bathroom::A bathroom stall is to the west and a door to the south.
+state::bathroom stall::There is toilet paper on the floor.
+state::3rd floor hallway::The hallway is empty. The lights are flickering. There are dorm rooms to the west, east, and south. There is a dark passageway to the left.
+state::Room 325::There are clothes thrown all over the ground. The window has fallen out of the window pane, and there are pictures of Seth Rogen everywhere...
+state::3rd floor quad::Eerie music is playing from a dance party long forgotten.
+state::Room 312::This room is empty, but is a great room to select from room draw, nonetheless.
+state::4th floor hallway::There is no one here, it's way too hot up here for humans to survive, anyway.
+state::Dark Passageway::The lights have been smashed, you can't see anything. 
+state::3rd floor staircase::There is a winding staircase leading upstairs and downstairs. The rickety staircase leading downstairs has been torn apart. 
+state::2nd floor hallway::There is a tea pantry that smells of rotten food to the left. An overflowing free box sits to the right. There is a staircase leading down to the north.
+state::tea pantry::Everything is rotten, but someone has still stolen some of the food...
+state::free box::This free box is filled with skeletons. Who would want to wear those?
+state::2nd floor staircase::This staircase has been set on fire!
+state::behind painting::Part of the wall has been torn off. 
+state::1st floor hallway::A hallway extends to the north. You look out the window, and the parking lot is eerily abandoned. There are rooms to your left and right. You notice a bat, which flies behind a curtain to the south.
+state::staircase::A steep staircase extends downstairs. Smelly laundry has been left on the ground.
+state::basement::There is nothing here except old children's books. A woven carpet is strewn on the ground.
+state::beneath carpet::There is a trap door here.
+state::Opened Trap Door::There is narrow staircase made of stone leading downstairs.
+state::tunnels::You are now in the Bryn Mawr's old tunnel system. Tunnels extend in all directions.
+state::west tunnel::There is nothing here.
+state::east tunnel::Someone has left a chainsaw here...
+state::north tunnel::There is nothing here.
+state::south tunnel::There is nothing here.
+state::down the 1st floor hallway::THERE IS A HUNGRY MONSTER HERE!!
+state::Past the monster::There is an exit to the north. What's with all the lizard keychains laying on the ground...?
+state::Extinguished 2nd floor staircase::A winding staircase leads downstairs. There is a painting of strange woman on the wall.
+state::Exit::The exit has been nailed shut with wooden boards.
+state::game over::YOU HAVE LOST THE GAME. LILLIAN HAS CAUGHT YOU. At least now you don't have to take finals anymore.
+state::Room 116::You are in a dorm room filled with dead plants neglected during winter break. A street light blares through the window, almost blinding you. Next year, this room will be a bathroom...
+state::Room 114::This room is empty. You get a splinter from the hardwood floors. Who would want to live here, anyway?
+state::end::You have made it to Merion Green! You see Lillian peering out the third floor bathroom window before she vanishes. But now you have to finish studying for finals...
+item::golden key::a key from Katherine Hepburn's time::bathroom stall
+item::candle::an old-fashioned candle::Room 325
+item::rope::a thread rope::3rd floor quad
+item::rotten steak::a bag of rotten steak. It seems to have been here for decades::tea pantry
+item::fire extinguisher::a dusty fire extinguisher::free box
+item::rusty key::stained with blood hidden in the wall::behind painting
+item::salt shaker::which always keeps Lillian 5 steps away...but only for a moment::3rd floor bathroom
+item::chainsaw::an electric chainsaw::east tunnel
+command::go left::1st floor hallway::Room 116::salt shaker
+command::put carpet back::beneath carpet::basement::salt shaker
+command::go right::Room 116::1st floor hallway::salt shaker
+command::go right::1st floor hallway::Room 114::salt shaker
+command::go left::Room 114::1st floor hallway::salt shaker
+command::use candle::Dark Passageway::3rd floor staircase::candle,salt shaker
+command::go south::Extinguished 2nd floor staircase::2nd floor hallway::salt shaker
+command::use rope::3rd floor staircase::2nd floor hallway::rope, salt shaker
+command::go downstairs::Opened Trap Door::tunnels::salt shaker
+command::go upstairs::tunnels::basement::salt shaker
+command::go west::3rd floor bathroom::bathroom stall::salt shaker
+command::go east::bathroom stall::3rd floor bathroom::salt shaker
+command::go south::3rd floor bathroom::3rd floor hallway::golden key,salt shaker
+command::go north::3rd floor hallway::3rd floor bathroom::salt shaker
+command::go west::3rd floor hallway::Room 312::salt shaker
+command::go east::Room 312::3rd floor hallway::salt shaker
+command::go east::3rd floor hallway::Room 325::salt shaker
+command::go west::Room 325::3rd floor hallway::salt shaker
+command::go south::3rd floor hallway::3rd floor quad::salt shaker
+command::go north::3rd floor quad::3rd floor hallway::salt shaker
+command::go left::3rd floor hallway::Dark Passageway::salt shaker
+command::go right::Dark Passageway::3rd floor hallway::salt shaker
+command::use rope::3rd floor staircase::2nd floor hallway::candle,rope,salt shaker
+command::use rope::2nd floor hallway::3rd floor staircase::candle,rope,salt shaker
+command::go upstairs::3rd floor staircase::4th floor hallway::candle,salt shaker
+command::go downstairs::4th floor hallway::3rd floor staircase::candle,salt shaker
+command::go south::3rd floor staircase::3rd floor hallway::salt shaker
+command::use rope::3rd floor staircase::2nd floor hallway::rope,salt shaker
+command::go left::2nd floor hallway::tea pantry::salt shaker
+command::go right::tea pantry::2nd floor hallway::salt shaker
+command::go right::2nd floor hallway::free box::salt shaker
+command::go left::free box::2nd floor hallway::salt shaker
+command::go north::2nd floor hallway::2nd floor staircase::salt shaker
+command::go south::2nd floor staircase::2nd floor hallway::salt shaker
+command::use fire extinguisher::2nd floor staircase::Extinguished 2nd floor staircase::fire extinguisher,salt shaker
+command::move painting::Extinguished 2nd floor staircase::behind painting::salt shaker
+command::put painting back::behind painting::Extinguished 2nd floor staircase::salt shaker
+command::go upstairs::1st floor hallway::Extinguished 2nd floor staircase::salt shaker
+command::go downstairs::Extinguished 2nd floor staircase::1st floor hallway::salt shaker
+command::go north::1st floor hallway::down the 1st floor hallway::salt shaker
+command::feed rotten steak::down the 1st floor hallway::Past the monster::rotten steak,salt shaker
+command::go north::tunnels::north tunnel::salt shaker
+command::go south::north tunnel::tunnels::salt shaker
+command::go south::tunnels::south tunnel::salt shaker
+command::go north::south tunnel::tunnels::salt shaker
+command::go upstairs::basement::1st floor hallway::salt shaker
+command::use chainsaw::Exit::end::chainsaw,salt shaker
+command::go north::Past the monster::Exit::salt shaker
+command::go south::Exit::Past the monster::salt shaker
+command::go south::Past the monster::down the 1st floor hallway::salt shaker
+command::go south::down the 1st floor hallway::1st floor hallway::salt shaker
+command::go south::1st floor hallway::staircase::salt shaker
+command::go upstairs::basement::1st floor hallway::salt shaker
+command::go north::staircase::1st floor hallway::salt shaker
+command::go downstairs::staircase::basement::salt shaker
+command::move carpet::basement::beneath carpet::salt shaker
+command::open trap door::beneath carpet::Opened Trap Door::rusty key,salt shaker
+command::go west::tunnels::west tunnel::salt shaker
+command::go east::west tunnel::tunnels::salt shaker
+command::go east::tunnels::east tunnel::salt shaker
+command::go west::east tunnel::tunnels::salt shaker
